@@ -24,7 +24,7 @@ if (resp == "1")
     Random rnd = new Random();
     // create file
     StreamWriter sw = new StreamWriter("data.txt");
-
+ 
     // loop for the desired # of weeks
     while (dataDate < dataEndDate)
     {
