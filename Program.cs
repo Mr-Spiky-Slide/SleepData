@@ -35,8 +35,8 @@ if (resp == "1")
             // generate random number of hours slept between 4-12 (inclusive)
             hours[i] = rnd.Next(4, 13);
         }
-        // M/d/yyyy,#|#|#|#|#|#|#
-        // Console.WriteLine($"{dataDate:M/d/yy},{string.Join("|", hours)}");
+        //M/d/yyyy,#|#|#|#|#|#|#
+        Console.WriteLine($"{dataDate:M/d/yy},{string.Join("|", hours)}");
         sw.WriteLine($"{dataDate:M/d/yyyy},{string.Join("|", hours)}");
         // add 1 week to date
         dataDate = dataDate.AddDays(7);
